@@ -1,0 +1,14 @@
+
+
+<div class="container">
+    <div class="list" *ngFor=" let i of myNotes" >
+        <div class="align-left">
+          <p> {{ i.createdAt | date:"mediumTime" }} </p>
+        </div>
+        <p> {{ i.biography }} </p>
+    </div>
+</div>
+
+
+
+

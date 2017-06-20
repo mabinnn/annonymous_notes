@@ -1,0 +1,24 @@
+
+
+.header {
+    margin-left: 20px;
+}
+.align-left {
+    float: right;
+}
+.list {
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    padding: 20px;
+    background-color: mintcream;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", "Bitstream Vera Sans Mono", monospace;
+}
+.container {
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 850px;
+    height: 400px;
+    padding: 20px;
+    background-color: lightyellow;
+    overflow: scroll;
+}
